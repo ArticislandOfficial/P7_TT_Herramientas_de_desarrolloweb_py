@@ -23,7 +23,7 @@ if hist_button: # al hacer clic en el botón
 build_scatter = st.checkbox('Construir un diahrama de disperción')
 if build_scatter: # al hacer clic en el botón
 # escribir un mensaje
-    st.write('Construir un histograma para la columna odómetro')
+    st.write('Histograma para la columna odómetro')
             
     # crear un histograma
     fig = px.scatter(car_data, x="odometer", y="price") # crear un gráfico de dispersión
